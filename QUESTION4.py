@@ -4,5 +4,6 @@ index = 0
 
 #DISPLAYS EACH CHARACTER OF THE WORD IN A NEW LINE 
 while index < len(userWord):
+     
      print(userWord[index])
      index += 1
