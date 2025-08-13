@@ -4,7 +4,7 @@ def multiply():
         num = input("Enter a number or type 'done' to finish: ")
         if num.lower() == "done":
             break
-        result *= float(num)
+        result *= int(num)
     print("The product is:", result)
 
 multiply()

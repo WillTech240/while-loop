@@ -1,6 +1,6 @@
 #Variables for the options and user choice
 while True:
-    print("\nChoose your option:")
+    print("Choose your option:")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
@@ -46,7 +46,7 @@ while True:
     else:
         print("Invalid option, Please try again")
     # Ask if user wants to continue
-    try_again = input("Do you want to calculate again? (yes/no): ").strip().lower()
+    try_again = input("\n Do you want to calculate again? (yes/no): ").strip().lower()
     if try_again != "yes":
         print("Goodbye!")
         break
