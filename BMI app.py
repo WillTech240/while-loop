@@ -28,7 +28,7 @@ def bmi_calculator():
             category = "Obese"
             tips = "Seek medical advice and adopt a healthier lifestyle."
 
-        print(f"{userName}, you are {category}.")
+        print(f"Hello {userName},Your BMI is {bmi:.2f} and you are {category}.")
         print(f" Health Tip: {tips}\n")
     # Ask if user wants to calculate again
         again = input("Do you want to check again? (yes/no): ").strip().lower()
